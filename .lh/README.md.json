@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1766670541428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1766670541427,
+            "name": "Commit-0",
+            "content": "# lesson — React + Vite Project ⚛️\n\nA fast, minimal React application scaffolded with Vite. This project is configured for modern development with ESLint, React 19, and Vite's fast dev server and build pipeline.\n\n---\n\n## Table of Contents\n\n- [About](#about)\n- [Features](#features)\n- [Prerequisites](#prerequisites)\n- [Quick Start](#quick-start)\n- [Available Scripts](#available-scripts)\n- [Project Structure](#project-structure)\n- [Linting & Type Checking](#linting--type-checking)\n- [Deployment](#deployment)\n- [Contributing](#contributing)\n- [License](#license)\n\n---\n\n## About\n\nThis repository contains a small React application using Vite for development and bundling. It is intended as a starting point for learning or building small-to-medium React apps with a modern toolchain.\n\n## Features ✅\n\n- React 19 with modern JSX transform\n- Vite dev server with fast Hot Module Replacement (HMR)\n- ESLint setup (recommended rules + React Hooks rules)\n- TypeScript type definitions available (via `@types/react`) for gradual adoption\n\n## Prerequisites 🔧\n\n- Node.js v18+ (recommended)\n- npm (or yarn/pnpm)\n\n## Quick Start — Local Development 🚀\n\n1. Install dependencies:\n\n```bash\nnpm install\n# or\n# yarn\n# pnpm install\n```\n\n2. Start the dev server:\n\n```bash\nnpm run dev\n```\n\n3. Open http://localhost:5173 in your browser.\n\n## Available Scripts 📦\n\n- `npm run dev` — Run development server with HMR\n- `npm run build` — Create a production build in `dist/`\n- `npm run preview` — Locally preview the production build\n- `npm run lint` — Run ESLint across the project\n\n## Project Structure 📁\n\n```\n/ (project root)\n├─ public/                # static assets\n├─ src/                   # application source\n│  ├─ assets/             # images, icons, etc.\n│  ├─ App.jsx\n│  ├─ main.jsx\n│  └─ index.css\n├─ index.html\n├─ package.json\n├─ eslint.config.js       # ESLint configuration\n├─ vite.config.js\n└─ README.md\n```\n\n## Linting & Type Checking 🔍\n\n- ESLint is configured in `eslint.config.js`. Run `npm run lint` to check for issues.\n- This project includes type declarations (`@types/react`) so you can introduce TypeScript gradually.\n\n> Tip: For full TypeScript support, consider migrating files to `.tsx` and adding a `tsconfig.json`.\n\n## Deployment 🌐\n\nBuild for production:\n\n```bash\nnpm run build\n```\n\nThe optimized build is output to `dist/`, which you can serve with any static hosting provider (Netlify, Vercel, GitHub Pages, etc.).\n\n## Contributing 🤝\n\nContributions are welcome. Please follow these guidelines:\n\n- Open an issue to discuss larger changes before coding.\n- Use clear, focused commits and provide a descriptive PR title.\n- Ensure linting passes before submitting a PR (`npm run lint`).\n\n## License\n\nThis project is available under the MIT license. Replace this with your chosen license if different.\n\n---\n\nIf you'd like, I can add a short demo screenshot, CI configuration (e.g., GitHub Actions), or a `CONTRIBUTING.md` to the repo. 💡\n"
+        }
+    ]
+}
